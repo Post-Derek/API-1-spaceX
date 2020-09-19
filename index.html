@@ -15,64 +15,134 @@
 
 <link rel="stylesheet" href="index.css">
 
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSQxWzEm9w9wWDKYjTWnDOKaye9t2B9raAZMw&usqp=CAU" type="image/icon type">
 </head>
 
 <body>
-
+  
     <nav>
-        <ul class="nav nav-tabs">
+
+        <ul id="fixedNav" class="nav justify-content-center fixed-top"> 
             <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
+              <a class="nav-link active" href="#falcon1">Falcon 1</a>
+              <a id="cont1"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#falcon9">Falcon 9</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#falconHeavy">Falcon Heavy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link " href="#starship">Starship</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#blastOff">BLAST OFF!</a>
+            </li>
+          
           </ul>
     </nav>
     
+    <a id="falcon1"></a>
         <div class = "cont1">
-        <container-md>
+          <container-md>
             <h1 id="name1">Falcon 1</h1>
-            <p id="aboutType"></p>
-            <div id='image'></div>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
-        </container-md>
+            <p id="about1" class="about"></p>
+            <img id='img1' src="" class="image"/>
+            
+            <div class = "infoBox">
+              <h2>Falcon 1 Info</h2>
+              <ul id ='country1'>Country:</style></ul>
+              <ul id ='flight1'>First Flight:</ul>
+              <ul id ='type1'>Type:</ul>
+              <ul id ='cost1'>Cost Per Launch:</ul>
+              <ul id ='hght1'>Height (feet)</ul>
+            </div>
+
+          </container-md>
         </div>
-    
+
+        
+        <a id="falcon9"></a>
+
         <div class = "cont2">
-            <container-md>
-                <h1 id="about">Rocket Ship 2</h1>
-                <p id="aboutType"></p>
-                <div id='image'></div>
-                <button type="button" class="btn btn-outline-dark">Dark</button>
-            </container-md>
-            </div>  
+          <container-md>
+            <h1 id="name2">Falcon 9</h1>
+            <p id="about2" class="about"></p>
+            <img id='img2' src="" class="image"/>
+            
+            <div class = "infoBox">
+              <h2>Falcon 9 Info</h2>
+              <ul id ='country2'>Country:</style></ul>
+              <ul id ='flight2'>First Flight:</ul>
+              <ul id ='type2'>Type:</ul>
+              <ul id ='cost2'>Cost Per Launch:</ul>
+              <ul id ='hght2'>Height (feet)</ul>
+            </div>
 
-
-            <div class = "cont3">
-        <container-md>
-            <h1 id="about">Rocket Ship 3</h1>
-            <p id="aboutType"></p>
-            <div id='image'></div>
-            <button type="button" class="btn btn-outline-dark">Dark</button>
-        </container-md>
+          </container-md>
         </div>
 
+
+        <a id="falconHeavy"></a>
+
+        <div class = "cont3">
+          <container-md>
+            <h1 id="name3">Falcon Heavy</h1>
+            <p id="about3" class="about"></p>
+            <img id='img3' src="" class="image"/>
+            
+            <div class = "infoBox">
+              <h2>Falcon Heavy Info</h2>
+              <ul id ='country3'>Country:</ul>
+              <ul id ='flight3'>First Flight:</ul>
+              <ul id ='type3'>Type:</ul>
+              <ul id ='cost3'>Cost Per Launch:</ul>
+              <ul id ='hght3'>Height (feet)</ul>
+            </div>
+
+          </container-md>
+        </div>
+
+        <a id="starship"></a>
 
         <div class = "cont4">
-            <container-md>
-                <h1 id="about">Rocket Ship 4</h1>
-                <p id="aboutType"></p>
-                <div id='image'></div>
-                <button type="button" class="btn btn-outline-dark">Dark</button>
-            </container-md>
+           <container-md>
+            <h1 id="name4">Starship</h1>
+            <p id="about4" class="about"></p>
+            <img id='img4' src="" class="image"/>
+            
+            <div class = "infoBox">
+              <h2>Starship Info</h2>
+              <ul id ='country4'>Country:</style></ul>
+              <ul id ='flight4'>First Flight:</ul>
+              <ul id ='type4'>Type:</ul>
+              <ul id ='cost4'>Cost Per Launch:</ul>
+              <ul id ='hght4'>Height (feet)</ul>
             </div>
+
+          </container-md>
+        </div>
+
+        <div class = "cont5">
+          
+          <container-md>
+            <a id="blastOff"></a>
+            <div style='text-align: center;'>
+            <button id="blastButton" onclick="rocketMusic()">BLAST OFF!</button>
+          </div>
+          <div>
+            <img src="./assets/rocket.png" width= 400px; height= 50px; class="blast">
+        </div>
+        
+
+          </container-md>
+        </div>
+    
+
+        
     
 
 

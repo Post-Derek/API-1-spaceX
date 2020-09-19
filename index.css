@@ -1,15 +1,155 @@
-.cont1 {
-    height: 500px;
-}
+body {
+    background-image: url('https://sm.mashable.com/mashable_in/photo/default/nasa-galaxy_9pu4.jpg');
+    
+  }
 
+  h1{
+      text-align: center;
+      padding-top: 10px;
+      font-family: 'Space Mono', monospace;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 50px;
+  }
+
+  h2{
+    
+    color: blue;
+    font-family: 'Space Mono', monospace;
+  }
+
+  nav{
+      background: black;
+      font-size: 25px;
+  }
+
+  #fixedNav
+    {
+        background: black;
+
+    }
+
+/* Container Style*/
+
+.cont1 {
+    height: 1300px;
+    padding-top: 50px;
+    
+}
 .cont2 {
-    height: 500px;
+    height: 1300px;
+    padding-top: 50px;
 }
 
 .cont3 {
-    height: 500px;
+    height: 1300px;
+    padding-top: 50px;
 }
 
 .cont4 {
+    height: 1300px;
+    padding-top: 50px;
+}
+
+.cont5 {
     height: 500px;
+    padding-top: 50px;
+}
+
+
+/* Desciption Style*/
+
+.about{
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+
+
+
+/* Information Box Style */
+
+.infoBox{
+    align-content: center;
+    width: 300px;
+    border: 5px solid white;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Space Mono', monospace;
+    
+}
+
+.infoBox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+/* Image Style */
+
+#img1{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 700px;
+    height: 600px;
+}
+
+#img2{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 700px;
+    height: 600px;
+    
+}
+
+#img3{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 700px;
+    height: 600px;
+}
+
+#img4{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 700px;
+    height: 600px;
+}
+
+/* BLAST OFF Animation */
+
+#blastButton{
+    text-align: center;
+}
+
+.blast {
+    position: relative;
+    left: 15px;
+    top: 250px;
+}
+
+@keyframes go-blast { 
+    20% { left: 20%; } 
+    40%  { left: 30%; }
+    60%  { left: 40%; }
+    80%  { left: 60%; }
+    100% { left: 75%; }
 }
